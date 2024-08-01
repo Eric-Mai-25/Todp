@@ -30,6 +30,11 @@ class _HomePageState extends State<HomePage>{
             taskCompleted: false,
             onChanged: (p0) {},
           ),
+          TodoTile(
+            taskName: 'Lunch',
+            taskCompleted: false,
+            onChanged: (p0) {},
+          ),
         ],
       ),
     );
